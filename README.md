@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+App
+    Header
+    Products
+        product - item
+        product - item
+    Message
+    Cart
+       cart - item
+       cart - item
+       cart - item
+       cart  - result   
+    Footer
+
+
 ## Available Scripts
 
 In the project directory, you can run:
