@@ -3,8 +3,9 @@ import Header from './components/Header.js';
 //import Products from './components/Products.js';
 import ProductsContainer from './containers/ProductsContainer.js';
 import Message from './components/Message.js';
-import Cart from './components/Cart.js';
+//import Cart from './components/Cart.js';
 import Footer from './components/Footer.js';
+import CartContainer from './containers/CartContainer.js';
 
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
           <div className="container">
             <ProductsContainer />
             <Message />
-            <Cart />
+            <CartContainer />
           </div>
         </main>
         <Footer />

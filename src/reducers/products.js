@@ -23,7 +23,7 @@ let initialState = [
     name: "iphone 17 china",
     madein: "Made in China",
     image: 'https://didongthongminh.vn/upload_images/2020/08/Oppo-Reno4-Pro-white.png',
-    price: 1500,
+    price: 1000,
     inventory: 12,
     rating: 3
   }
