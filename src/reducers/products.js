@@ -1,4 +1,3 @@
-//import
 let initialState = [
   {
     id: 1,
@@ -10,7 +9,7 @@ let initialState = [
     rating: 4
   },
   {
-    id: 1,
+    id: 2,
     name: "Galary Note 7",
     madein: "Made in Viet Nam",
     image: 'https://didongthongminh.vn/upload_images/2020/08/c2-copper-405x432-1.png',
@@ -19,8 +18,8 @@ let initialState = [
     rating: 5
   }
   , {
-    id: 1,
-    name: "iphone 17 china",
+    id: 3,
+    name: "XIOUMI 17",
     madein: "Made in China",
     image: 'https://didongthongminh.vn/upload_images/2020/08/Oppo-Reno4-Pro-white.png',
     price: 1000,
@@ -31,7 +30,6 @@ let initialState = [
 
 const products = (state = initialState, action) => {
   switch (action.type) {
-
     default: return [...state];
   }
 }
